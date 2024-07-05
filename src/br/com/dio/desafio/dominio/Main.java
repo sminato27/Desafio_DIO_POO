@@ -20,6 +20,9 @@ public class Main {
         mentoria1.setDescricao("Descrição da Mentoria Java");
         mentoria1.setData(LocalDate.now());
 
+        // Exemplo de polimorfismo:
+        Conteudo conteudo = new Curso();
+
         System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria1);
